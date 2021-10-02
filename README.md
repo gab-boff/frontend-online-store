@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+<header>
+  <h1>PROJETO FRONT-END ONLINE STORE</h1>  
+    <p>Desenvolvido em ReactJS, o projeto foi feito em grupo para por em prática métodos ágeis, Kanban e Scrum, e para aprimorarmos nossos conhecimentos em Front-End</p>
+    <br>
+    <br>
+    <a href="https://github.com/tryber/sd-011-project-frontend-online-store/tree/main-group-15">BRANCH ORIGINAL</a>
+</header>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##
 
-## Available Scripts
+<main>
+  <h2>O QUE FOI DESENVOLVIDO</h2>
+  <p>O Front-End Online Store foi feito utilizando ReactJS, nele foi proposto utilizarmos props para passar informações entre os componenetes. Isso ocorreu para entendermos o problema que isso gera e a razão pela qual se utilizar Redux e Context.</p>
 
-In the project directory, you can run:
+  <p>Nele é possível buscar qualquer coisa disponível no Mercado Livre. Também é possível filtrar por categorias, ver alguns detalhes e adicionar itens ao carrinho.</p>
 
-### `npm start`
+  <p>A base de dados é a API do Mercado Livre.</p>
+  
+  <p>O layout tem como foco web browser.</p>
+</main>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<section>
+  <h3>API UTILIZADA</h3>
+    <ul>
+      <li><a href="https://developers.mercadolivre.com.br/pt_br/api-docs-pt-br">Mercado Livre API</a></li>
+    </ul>
+</section>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<section>
+  <h3>COMO RODAR O FRONT-END ONLINE STORE</h3>
+  <ol>
+    <li>Clone o repositório.</li>
+    <li>Na raiz do projeto utilize o comando <b>npm install</b>.</li>
+    <li>Agora utilize o comando <b>npm start</b>.</li>
+  </ol>
+</section>
 
-### `npm test`
+##
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="./screenshots/tela.png" width="400px" alt="Tela principal"/>
+<img src="./screenshots/carrinho.png" width="400px" alt="Tela de detalhes"/>
+<img src="./screenshots/detalhes.png" width="400px" alt="Tela de detalhes"/>
 
-### `npm run build`
+<section>
+  <h3>PESSOAS DESENVOLVEDORAS:</h2>
+    <ul>
+      <li>
+      <a href="https://github.com/gab-boff">Gabriel Boff</a>
+      </li>
+      <li>
+      <a href="https://github.com/laissimenikim">Lais Simenikim</a>
+      </li>
+      <li>
+      <a href="https://github.com/nalumelo">Nalu Melo</a>
+      </li>
+      <li>
+      <a href="https://github.com/Zeonnatios">Matheus Antonio</a>
+      </li>
+    </ul>
+</section>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<section>
+  <h2>CONSIDERAÇÃO FINAL</h2>
+  <p>Este projeto foi criado apenas por razões didáticas, sem nenhum objetivo além desse.</p>
+</section>
