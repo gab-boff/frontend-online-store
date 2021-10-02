@@ -1,38 +1,213 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap') ;
+
+* {
+  box-sizing: border-box;
+  font-family: Roboto , sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #94618e;
+  font-size: 12px;
+}
+
+.flex-dashboard {
+  color: #f8eee7;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+}
+
+.sidebar-catories {
+  align-items: center;
+  background-color: #49274a;
+  border-right: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 15px 0;
+  position: fixed;
+  width: 320px;
+}
+
+.sidebar-catories ul {
+  list-style: none;
+}
+
+.sidebar-catories button {
+  background-color: transparent;
+  border: none;
+  color: #f4decb;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 10px 0;
+}
+
+.sidebar-catories button:hover {
+  color: #f9cf00;
+}
+
+.sidebar-catories li:hover {
+  color: #f9cf00;
+}
+
+.main-content {
+  background-color: #94618e;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 320px;
+  overflow-y: auto;
+  padding: 25px;
+  width: 100%;
+}
+
+.inputShoppingCart {
+  border: none;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px 0;
+}
+
+.rowCart {
+  align-items: center;
+  border: 1px solid #f9cf00;
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 0;
+  padding: 25px;
+}
+
+.rowCart img {
+  width: 100px;
+}
+
+.buttonTransparent {
+  background-color: transparent;
+  border: 1px solid #f9cf00;
+  color: #f4decb;
+  font-size: 1.5rem;
+  margin: 20px;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+.buttonTransparent:hover {
+  background-color: #49274a;
+}
+
+.buttonCart {
+  background-color: transparent;
+  border: 1px solid #f9cf00;
+  color: #f4decb;
+  font-size: 1.5rem;
+  margin-left: 35px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.searchButton {
+  background-color: transparent;
+  border: 1px solid #f9cf00;
+  color: #f4decb;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.buttonCart:hover {
+  background-color: #49274a;
+}
+
+.searchButton:hover {
+  background-color: #49274a;
+}
+
+.listProducts {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 15px;
+}
+
+.item-card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.product-card {
+  align-items: center;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 3px;
+  color: #49274a;
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  margin: 5px;
+  overflow: hidden;
+  width: 400px;
+}
+
+.product-image {
+  height: 175px;
+  padding: 15px 0;
+  width: 175px;
+}
+
+.product-card-title {
+  font-size: 1.2rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product-card-price {
+  font-size: 1.2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.product-link-details a {
+  color: rgb(0, 109, 251);
+  font-size: 1.6rem;
+  padding: 5px;
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.padding-x {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.card-flex {
+  align-items: center;
+  border: #f9cf00 1px solid;
+  display: flex;
+  height: 150px;
+  justify-content: space-between;
+  margin: 15px 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+  width: 85%;
+}
+
+.details-card-product {
+  align-items: center;
+  color: #f4decb;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-size: 1.2rem;
+  font-weight: 500;
 }
