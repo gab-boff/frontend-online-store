@@ -37,9 +37,9 @@
 
 ##
 
-<img src="./screenshots/tela.png" width="400px" alt="Tela principal"/>
-<img src="./screenshots/carrinho.png" width="400px" alt="Tela de detalhes"/>
-<img src="./screenshots/detalhes.png" width="400px" alt="Tela de detalhes"/>
+<img src="./screenshots/tela.png" width="600px" alt="Tela principal"/>
+<img src="./screenshots/carrinho.png" width="600px" alt="Tela de detalhes"/>
+<img src="./screenshots/detalhes.png" width="600px" alt="Tela de detalhes"/>
 
 <section>
   <h3>PESSOAS DESENVOLVEDORAS:</h2>
